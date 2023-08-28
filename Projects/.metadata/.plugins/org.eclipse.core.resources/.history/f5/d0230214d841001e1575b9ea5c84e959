@@ -1,0 +1,18 @@
+<%@page import="java.util.Scanner"%>
+<%@page import="com.tyss.food_app.userDaoImplementation.BranchDaoImplementation"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="delete">
+<td> Enter the Branch Id  <input type="number" name ="number"></td>
+<td> <input type="submit"></td>
+</form>
+</body>
+</html>

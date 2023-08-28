@@ -1,0 +1,8 @@
+package com.tyss.food_app.controller;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet(value = "/createFood")
+public class CreateFoodOrder {
+
+}

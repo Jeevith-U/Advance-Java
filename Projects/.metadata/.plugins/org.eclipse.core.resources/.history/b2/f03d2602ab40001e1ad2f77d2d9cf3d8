@@ -1,0 +1,69 @@
+package com.tyss.food_app.serviceimplementation;
+
+import javax.persistence.Query;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.service.UserService;
+import com.tyss.food_app.userDaoImplementation.UserDaoImplementation;
+import com.tyss.food_app.util.EntityUtil;
+
+public class UserServiceImplementation implements UserService{
+	
+	EntityUtil entity = new EntityUtil() ;
+	
+	UserDaoImplementation dao = new UserDaoImplementation() ;
+	
+	public Users saveUserService(Users users) {
+		
+		dao.saveUser(users) ;
+		
+		return users;
+	}
+
+	
+	public Users getUserbyIdService(int id) {
+		
+		return dao.findUser(id) ;
+		
+	}
+
+	
+	public Users getUserbyUserNamedService(Users users) {
+		
+		Query query = entity.
+		
+		return null;
+	}
+
+	
+	public Users getUserbyEmailService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users getUserbyPhoneNumberService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users updateUserService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users deleteUSerService(Users users) {
+		
+		return null;
+	}
+
+
+	@Override
+	public Users loginService(String name, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

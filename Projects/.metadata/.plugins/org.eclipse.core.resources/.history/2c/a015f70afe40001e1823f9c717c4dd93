@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Operation</title>
+
+    <style>
+       div {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <form action="manager" method="post" >
+
+          <h4> <li> <input type="button" value="Create A Branch" name="create"></li> </h4> 
+          <h4> <li> <input type="button" value="Update Branch" name="update"></li> </h4> 
+          <h4> <li> <input type="button" value="Get Branch Details" name="details"></li> </h4>
+          <h4> <li> <input type="button" value="Get Menu" name="Menu"></li> </h4> 
+          <h4> <li> <input type="button" value="Delete Branch" name="delete"></li> </h4>
+
+          <input type="submit" colspan="2" align="center" >
+
+        </form>
+    </div>
+</body>
+</html>

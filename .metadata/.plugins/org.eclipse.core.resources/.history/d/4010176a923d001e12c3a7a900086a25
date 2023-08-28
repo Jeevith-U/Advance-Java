@@ -1,0 +1,14 @@
+package edu.tyss.httpsession;
+
+import java.sql.Date;
+
+public class SessionContent {
+	
+	String sessionName ;
+	int sessionId ;
+	Date Createddate ;
+	int sessionDuration ;
+	String sessionType ;
+	
+	
+}

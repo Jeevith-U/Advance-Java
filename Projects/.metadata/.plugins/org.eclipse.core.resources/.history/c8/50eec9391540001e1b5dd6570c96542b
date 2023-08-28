@@ -1,0 +1,10 @@
+package com.tyss.food_app.controller;
+
+public class BranchController {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

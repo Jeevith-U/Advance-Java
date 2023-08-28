@@ -1,0 +1,15 @@
+package com.tyss.food_app.service;
+
+import com.tyss.food_app.entity.Users;
+
+public interface UserService {
+	
+	public Users loginService (Users users) ;
+	public Users saveUserService (Users users) ;
+	public Users getUserbyIdService (Users users) ;
+	public Users getUserbyUserNamedService (Users users) ;
+	public Users getUserbyEmailService (Users users) ;
+	public Users getUserbyPhoneNumberService (Users users) ;
+	public Users updateUserService (Users users) ;
+	public Users deleteUSerService (Users users) ;
+}

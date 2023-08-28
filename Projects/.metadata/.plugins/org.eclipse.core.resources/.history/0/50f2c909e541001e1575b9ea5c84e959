@@ -1,0 +1,34 @@
+package com.tyss.food_app.controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet(value = "/menuoperation")
+public class MenuOperation extends HttpServlet{
+
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		if (req.getParameter("find").equals("find")) {
+			RequestDispatcher disp = req.getRequestDispatcher("findmenu.jsp");
+			disp.forward(req, resp);
+		}
+		if (req.getParameter("update").equals("update")) {
+			RequestDispatcher disp = req.getRequestDispatcher("updatemenu.jsp");
+			disp.forward(req, resp);
+		}
+		if (req.getParameter("details").equals("details")) {
+			RequestDispatcher disp = req.getRequestDispatcher("menudetails.jsp");
+			disp.forward(req, resp);
+		}
+		if (req.getParameter("delete").equals("delete")) {
+			RequestDispatcher disp = req.getRequestDispatcher("deletemenu.jsp");
+			disp.forward(req, resp);
+		}
+	}
+}

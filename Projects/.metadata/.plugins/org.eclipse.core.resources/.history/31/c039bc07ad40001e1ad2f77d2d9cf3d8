@@ -1,0 +1,18 @@
+package com.tyss.food_app.service;
+
+import java.util.List;
+
+import com.tyss.food_app.entity.Branch;
+
+public interface BranchService {
+	
+	public Branch saveBranchervice (Branch branch) ;
+	public Branch getBranchbyIdService (int id) ;
+	public Branch getBranchbyNamedService (String name) ;
+	public Branch getBranchEmailService (Branch branch) ;
+	public Branch getBranchbyPhoneNumberService (Branch branch) ;
+	public Branch updateBranchervice (Branch branch) ;
+	public Branch deleteBranchervice (Branch branch) ;
+	public List<Branch> getAllBranchervice () ;
+
+}

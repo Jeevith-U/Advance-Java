@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch</title>
+    <style>
+        table{
+        width: 25%;
+        margin: auto;
+        margin-top: 5px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        }
+     </style>
+</head>
+<body>
+    <form action="manager" method="post" border = "" id = "table">
+
+        <table>
+            <div class="data">
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phno">Phone Number</label></td>
+                <td><input type="tel" id="phno" name="phno"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><label for="add">Address</label></td>
+                <td><input type="text" id="add" name="add"></td>
+            </tr>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+            </tr>
+        </div>
+        </table>
+    </form>
+</body>
+</html>

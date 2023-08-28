@@ -1,0 +1,14 @@
+package com.tyss.food_app.service;
+
+import com.tyss.food_app.entity.Menu;
+
+public interface MenuService {
+	
+	public Menu saveMenuervice (Menu menu) ;
+	public Menu getMenubyIdService (Menu menu) ;
+	public Menu getMenubyBranchIdService (Menu menu) ;
+	public Menu getMenuUserIdService (Menu menu) ;
+	public Menu updateMenuervice (Menu menu) ;
+	public Menu deleteMenuervice (Menu menu) ;
+	public Menu getAllMenuervice (Menu menu) ;
+}

@@ -1,0 +1,54 @@
+
+<!DOCTYPE web-app PUBLIC
+   "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+   "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+
+         <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  
+      <servlet-name>FirstServlet</servlet-name>
+      <servlet-class>edu.tyss.servlet_program.dto.LoginPage</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>FirstServlet</servlet-name>
+         <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+    <!-- For configuring HttpServlet Servlet -->
+  <servlet>
+     <servlet-name>forms</servlet-name>
+     <servlet-class>edu.tyss.servlet_program.dto.FormReader</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+      <servlet-name>forms</servlet-name>
+      <url-pattern>/forms</url-pattern>
+  </servlet-mapping>
+  
+  <!-- For configuring HttpServletdoGetmethod Servlet -->
+  <servlet>
+     <servlet-name>httpservletdoGetMethod</servlet-name>
+     <servlet-class>edu.tyss.servlet_program.httpservlet.Register</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>httpservletdoGetMethod</servlet-name>
+  <url-pattern>/doGetmethodforms</url-pattern>
+  </servlet-mapping>
+  
+  <!-- For configuring HttpServletdoPost Servlet -->
+  
+  <servlet>
+     <servlet-name>doPostMethod</servlet-name>
+     <servlet-class>edu.tyss.servlet_program.httpservlet.doPost.HttpServletdoPostMethod</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+       <servlet-name>doPostMethod</servlet-name>
+       <url-pattern>/dopostmethod</url-pattern>
+  </servlet-mapping>
+</web-app> 
+

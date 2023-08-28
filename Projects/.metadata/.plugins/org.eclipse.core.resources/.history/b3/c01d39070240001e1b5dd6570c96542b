@@ -1,0 +1,19 @@
+package com.tyss.food_app.userDao;
+
+import com.tyss.food_app.entity.Users;
+
+public interface UserDao {
+	
+	public Users saveUser(Users user) ;
+	
+	public Users findUser(int id) ;
+	
+	public Users updateUser(Users user) ;
+	
+	public Users deleteUsers(int id) ;
+	
+	public boolean writeSuggetions(String suggestion) ;
+	
+	public Users loginUser(String name, String password) ;
+	
+}

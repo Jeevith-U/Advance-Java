@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	String fname = (String) request.getAttribute("fname");
+	String lname = (String) request.getAttribute("lname");
+	String email = (String) request.getAttribute("email");
+	long phone = (long) request.getAttribute("fname");
+	%>
+
+	<table>
+		<tr>
+		<td><%=fname %></td>
+		<td><%=lname %></td>
+		<td><%=email %></td>
+		<td><%=phone %></td>
+		</tr>
+	</table>
+</body>
+</html>

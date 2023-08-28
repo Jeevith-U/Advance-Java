@@ -1,0 +1,32 @@
+package com.tyss.food_app.userDaoImplementation;
+
+import com.tyss.food_app.entity.Food_Product;
+import com.tyss.food_app.userDao.Food_ProductDao;
+
+public class Food_ProductDaoImplementation implements Food_ProductDao{
+
+	
+	public Food_Product saveFoodProduct(Food_Product Product) {
+		
+		return null;
+	}
+
+	
+	public Food_Product findFoodProduct(int id) {
+		
+		return null;
+	}
+
+	
+	public Food_Product updateFoodProduct(Food_Product Product) {
+		
+		return null;
+	}
+
+	
+	public boolean deleteFoodProduct(int id) {
+		
+		return false;
+	}
+
+}

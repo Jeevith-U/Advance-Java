@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;edu.ty.implicit_object_request&apos; to &apos;JSPTags/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Navigation&apos;&#x0D;&#x0A;- Destination element: &apos;JSPTags/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Navigation/src/main/java/edu.ty.implicit_object_request&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=JSPTags/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;edu.ty.implicit_object_request" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1692420422160" version="1.0"/>
+</session>

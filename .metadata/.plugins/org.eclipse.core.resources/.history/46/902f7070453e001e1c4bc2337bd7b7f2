@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="read" method="get">
+
+		<table>
+			<tr>
+				<td><label for="fname">First Name</label></td>
+				<td> <input type="text"id="fname" name="fname"></td>
+			</tr>
+			<br>
+			<br>
+			<tr>
+				<td><label for="lname">Last Name</label> </td>
+				<input type="text"id="lname" name="lname"></td>
+			</tr>
+			<br>
+			<br>
+			<tr>
+				<td><label for="email">Email</label> <input type="email"
+					id="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label for="tel">Phone Number</label> <input type="tel"
+					id="tel" name="tel"></td>
+			</tr>
+			<br>
+			<br>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

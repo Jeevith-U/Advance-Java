@@ -1,0 +1,30 @@
+package com.tyss.food_app.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.tyss.food_app.entity.FoodOder;
+import com.tyss.food_app.userDaoImplementation.FoodOrderImplementation;
+
+@WebServlet(value = "/createFood")
+public class CreateFoodOrder extends HttpServlet{
+	
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		FoodOder order = new FoodOder() ;
+		
+		FoodOrderImplementation dao = new FoodOrderImplementation() ;
+		
+		order.setStatus(req.getParameter("status")) ;
+		order.setCustomerName(req.getParameter("name")) ;
+		order.setCustomerPhoneNumber(Long.valueOf(req.getParameter("phno"))) ;
+		order.setTotalPrice(Double.valueOf( req.getParameter("tot"))) ;		
+		
+		
+	}
+}

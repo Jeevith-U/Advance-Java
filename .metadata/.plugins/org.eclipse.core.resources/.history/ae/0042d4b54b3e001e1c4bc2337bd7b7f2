@@ -1,0 +1,5 @@
+package edu.ty.implicit_object_request;
+
+public class SenderServlet {
+
+}

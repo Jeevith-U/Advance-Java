@@ -1,0 +1,10 @@
+package edu.tyss.servletcontext.dto;
+
+public class LapTop {
+	
+	int id ;
+	String brandName ;
+	int quantity ;
+	double price ;
+	
+}

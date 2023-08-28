@@ -1,0 +1,9 @@
+package edu.ty.implicit_object_request;
+
+public class Student {
+	
+	int sid ;
+	String sname ;
+	byte sage ;
+	long phno ;
+}

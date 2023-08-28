@@ -1,0 +1,18 @@
+package com.tyss.food_app.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Food_Product {
+	
+	private int id ;
+	private String name ;
+	private Type type ;
+	private String about ;
+	private Availability availability ;
+	private double price ;
+	
+	@ManyToOne
+	private Menu menu ;
+}

@@ -1,0 +1,29 @@
+package com.tyss.food_app.controller;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.userDaoImplementation.BranchDaoImplementation;
+import com.tyss.food_app.util.Role;
+
+public class UserController {
+	
+	public static void main(String[] args) {
+		
+		
+		Users user  = new Users() ;
+		
+		user.setName("Viman");
+		user.setEmail("vimal@gmail.com");
+		user.setPassword("viman@22$$");
+		user.setRole(Role.CUSTOMER);
+		
+        Users user1  = new Users() ;
+		
+		user.setName("luffu");
+		user.setEmail("luffu@gmail.com");
+		user.setPassword("luffu@22$$");
+		user.setRole(Role.BRANCHMANAGER);
+		
+		
+		
+	}
+}

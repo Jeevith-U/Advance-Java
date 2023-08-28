@@ -1,0 +1,100 @@
+
+Aug 25, 2023 11:09:47.69 NEW SESSION
+Aug 25, 2023 11:09:47.69 [12856:20972:0825/110947.064:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2cs10.gcp.gvt2.com failed:
+Aug 25, 2023 11:09:47.69 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:09:47.69 ERROR: Time is after notAfter
+Aug 25, 2023 11:09:47.69 
+Aug 25, 2023 11:09:47.69 
+Aug 25, 2023 11:10:28.94 [12856:20972:0825/111028.094:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c64.gcp.gvt2.com failed:
+Aug 25, 2023 11:10:28.94 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:10:28.95 ERROR: Time is after notAfter
+Aug 25, 2023 11:10:28.95 
+Aug 25, 2023 11:10:28.95 
+Aug 25, 2023 11:14:21.465 [12856:20972:0825/111421.464:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c45.gcp.gvt2.com failed:
+Aug 25, 2023 11:14:21.471 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:14:21.472 ERROR: Time is after notAfter
+Aug 25, 2023 11:14:21.472 
+Aug 25, 2023 11:14:21.472 
+Aug 25, 2023 11:23:06.274 [12856:20972:0825/112306.274:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c55.gcp.gvt2.com failed:
+Aug 25, 2023 11:23:06.275 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:23:06.275 ERROR: Time is after notAfter
+Aug 25, 2023 11:23:06.275 
+Aug 25, 2023 11:23:06.275 
+Aug 25, 2023 11:31:37.289 [12856:20972:0825/113137.289:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c46.gcp.gvt2.com failed:
+Aug 25, 2023 11:31:37.289 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:31:37.289 ERROR: Time is after notAfter
+Aug 25, 2023 11:31:37.289 
+Aug 25, 2023 11:31:37.289 
+Aug 25, 2023 11:36:21.252 [12856:20972:0825/113621.252:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c19.gcp.gvt2.com failed:
+Aug 25, 2023 11:36:21.252 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:36:21.252 ERROR: Time is after notAfter
+Aug 25, 2023 11:36:21.253 
+Aug 25, 2023 11:36:21.253 
+Aug 25, 2023 11:37:28.319 [12856:20972:0825/113728.319:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c40.gcp.gvt2.com failed:
+Aug 25, 2023 11:37:28.320 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:37:28.320 ERROR: Time is after notAfter
+Aug 25, 2023 11:37:28.321 
+Aug 25, 2023 11:37:28.321 
+Aug 25, 2023 11:39:19.953 [12856:20972:0825/113919.953:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c37.gcp.gvt2.com failed:
+Aug 25, 2023 11:39:19.953 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:39:19.953 ERROR: Time is after notAfter
+Aug 25, 2023 11:39:19.954 
+Aug 25, 2023 11:39:19.954 
+Aug 25, 2023 11:46:19.800 [12856:20972:0825/114619.800:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c53.gcp.gvt2.com failed:
+Aug 25, 2023 11:46:19.800 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:46:19.801 ERROR: Time is after notAfter
+Aug 25, 2023 11:46:19.801 
+Aug 25, 2023 11:46:19.801 
+Aug 25, 2023 11:49:25.919 [12856:20972:0825/114925.919:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c58.gcp.gvt2.com failed:
+Aug 25, 2023 11:49:25.919 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:49:25.919 ERROR: Time is after notAfter
+Aug 25, 2023 11:49:25.919 
+Aug 25, 2023 11:49:25.919 
+Aug 25, 2023 11:53:06.106 [12856:20972:0825/115306.106:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c41.gcp.gvt2.com failed:
+Aug 25, 2023 11:53:06.106 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 11:53:06.106 ERROR: Time is after notAfter
+Aug 25, 2023 11:53:06.106 
+Aug 25, 2023 11:53:06.106 
+Aug 25, 2023 12:10:50.484 [12856:20972:0825/121050.484:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c30.gcp.gvt2.com failed:
+Aug 25, 2023 12:10:50.485 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 12:10:50.485 ERROR: Time is after notAfter
+Aug 25, 2023 12:10:50.485 
+Aug 25, 2023 12:10:50.485 
+Aug 25, 2023 12:11:03.940 [12856:20972:0825/121103.940:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c60.gcp.gvt2.com failed:
+Aug 25, 2023 12:11:03.940 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 12:11:03.940 ERROR: Time is after notAfter
+Aug 25, 2023 12:11:03.940 
+Aug 25, 2023 12:11:03.941 
+Aug 25, 2023 12:11:15.11 [12856:20972:0825/121115.011:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c52.gcp.gvt2.com failed:
+Aug 25, 2023 12:11:15.12 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 12:11:15.12 ERROR: Time is after notAfter
+Aug 25, 2023 12:11:15.12 
+Aug 25, 2023 12:11:15.12 
+Aug 25, 2023 12:14:07.461 [12856:20972:0825/121407.461:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c5.gcp.gvt2.com failed:
+Aug 25, 2023 12:14:07.461 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 12:14:07.462 ERROR: Time is after notAfter
+Aug 25, 2023 12:14:07.462 
+Aug 25, 2023 12:14:07.462 
+Aug 25, 2023 12:18:37.675 [12856:20972:0825/121837.674:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c22.gcp.gvt2.com failed:
+Aug 25, 2023 12:18:37.675 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 12:18:37.675 ERROR: Time is after notAfter
+Aug 25, 2023 12:18:37.675 
+Aug 25, 2023 12:18:37.675 
+Aug 25, 2023 12:47:25.540 [12856:18448:0825/124725.539:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 25, 2023 12:47:37.850 [12856:18448:0825/124737.850:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Aug 25, 2023 13:48:51.994 NEW SESSION
+Aug 25, 2023 13:48:51.994 [10576:10408:0825/134851.993:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c3.gcp.gvt2.com failed:
+Aug 25, 2023 13:48:51.995 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 25, 2023 13:48:51.995 ERROR: Time is after notAfter
+Aug 25, 2023 13:48:51.995 
+Aug 25, 2023 13:48:51.995 
+
+Aug 26, 2023 21:39:25.667 NEW SESSION
+Aug 26, 2023 21:39:25.667 [17752:21620:0826/213925.658:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c19.gcp.gvt2.com failed:
+Aug 26, 2023 21:39:25.667 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 26, 2023 21:39:25.668 ERROR: Time is after notAfter
+Aug 26, 2023 21:39:25.668 
+Aug 26, 2023 21:39:25.668 
+Aug 26, 2023 21:43:23.475 [17752:20216:0826/214323.474:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 26, 2023 21:55:42.731 [17752:20216:0826/215542.730:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7

@@ -1,0 +1,28 @@
+package com.tyss.food_app.controller;
+
+import com.tyss.food_app.entity.Food_Product;
+import com.tyss.food_app.userDaoImplementation.Food_ProductDaoImplementation;
+import com.tyss.food_app.util.Availability;
+import com.tyss.food_app.util.Type;
+
+public class FoodproductContoller {
+	
+	public static void main(String[] args) {
+		
+		Food_ProductDaoImplementation dao = new Food_ProductDaoImplementation() ;
+		
+//		Food_Product product = new Food_Product() ;
+//		
+//		product.setAbout("made of rice and masala");
+//		product.setAvailability(Availability.AVAILABLE);
+//		product.setName("Rice Bath");
+//		product.setPrice(40);
+//		product.setType(Type.VEGAN);
+//		
+//		dao.saveFoodProduct(product) ;
+		
+		System.out.println(dao.findFoodProduct(3));
+		
+		
+	}
+}

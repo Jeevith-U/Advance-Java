@@ -1,0 +1,85 @@
+package com.tyss.food_app.userDaoImplementation;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.userDao.UserDao;
+
+public class UserDaoImplementation implements UserDao {
+
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jeevith");
+	EntityManager entityManager = entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction = entityManager.getTransaction();
+
+	public Users saveUser(Users user) {
+		entityTransaction.begin();
+		entityManager.persist(user);
+		entityTransaction.commit();
+		return null;
+	}
+
+	public Users findUser(int id) {
+
+		return entityManager.find(Users.class, id);
+	}
+
+	public Users updateUser(Users user) {
+
+		entityTransaction.begin();
+
+		Users updateUser = findUser(user.getId());
+
+		if (updateUser != null) {
+
+			updateUser.setEmail(user.getEmail());
+
+			entityManager.merge(updateUser);
+
+			entityTransaction.commit();
+
+			return updateUser;
+
+		}
+
+		return null;
+	}
+
+	public boolean deleteUsers(int id) {
+		
+        entityTransaction.begin();
+		
+		Users delUser = findUser(id) ;
+		
+		if (delUser != null) {
+			
+			entityTransaction.begin();
+			
+			entityManager.remove(delUser);
+			
+			entityTransaction.commit();
+			
+		}
+		return false;
+	}
+
+	public String writeSuggetions(String suggestion) {
+
+		return suggestion;
+	}
+	
+	public boolean loginUser(int id, String password) {
+		
+		Users login = findUser(id) ;
+		
+		if (login != null && login.getPassword().equals(password)) {
+			
+			return true ;
+		}
+		
+		return flase ;
+	}
+
+}

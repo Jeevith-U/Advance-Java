@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Branch</title>
+
+    <style>
+        table{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="center">Welcome to Update Branch Page</h1>
+
+    <form action="" method="post">
+
+        <table>
+           
+            <tr>
+                <td><label for="id">Enter the Id</label></td>
+                <td><input type="text" id="id" name="id"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><label for="name">Enter the Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><label for="email">Enter the Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+            </tr>
+       
+        </table>
+
+    </form>
+    
+</body>
+</html>

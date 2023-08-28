@@ -1,0 +1,58 @@
+package com.tyss.food_app.serviceimplementation;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.service.UserService;
+import com.tyss.food_app.util.EntityUtil;
+
+public class UserServiceImplementation implements UserService{
+	
+	EntityUtil entity = new EntityUtil() ;
+	
+	public Users loginService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users saveUserService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users getUserbyIdService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users getUserbyUserNamedService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users getUserbyEmailService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users getUserbyPhoneNumberService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users updateUserService(Users users) {
+		
+		return null;
+	}
+
+	
+	public Users deleteUSerService(Users users) {
+		
+		return null;
+	}
+
+}

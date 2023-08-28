@@ -1,0 +1,14 @@
+package com.tyss.food_app.service;
+
+import com.tyss.food_app.entity.FoodOder;
+import com.tyss.food_app.entity.FoodOder;
+
+public interface FoodOrderService {
+	
+	public FoodOder saveFoodOder(FoodOder order) ;
+	public FoodOder updateFoodOder(FoodOder order) ;
+	public boolean deleteFoodOder(int id) ;
+	public FoodOder getFoodOderbyIdService (int id) ;
+	public FoodOder getFoodOderbyCustomerNameService (String name) ;
+	public FoodOder getFoodOderbyCustomerPhoneNumberService (long phno) ;
+}

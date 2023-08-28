@@ -1,0 +1,22 @@
+package edu.tyss.requestdispatcher;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Register extends HttpServlet{
+	
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String name = req.getParameter("un") ;
+		String pass = req.getParameter("pass") ;
+		
+		if (name.equals("Jeevith") && pass.equals("jeevith22$")) 
+			System.out.println("Your are allowed to access the application");
+		else
+			System.out.println("Your are not allowed to access the application");
+	}
+}

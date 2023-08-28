@@ -1,0 +1,102 @@
+
+Aug 12, 2023 09:39:26.157 NEW SESSION
+Aug 12, 2023 09:39:26.157 [18820:23004:0812/093926.155:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 12, 2023 09:39:26.210 [18820:23004:0812/093926.210:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 12, 2023 11:03:35.84 [18820:27108:0812/110335.083:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Aug 12, 2023 15:34:23.329 NEW SESSION
+Aug 12, 2023 15:34:23.329 [2112:14912:0812/153423.327:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 12, 2023 15:45:32.880 [2112:13356:0812/154532.880:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 12, 2023 15:58:18.990 [2112:14912:0812/155818.990:ERROR:device_event_log_impl.cc(222)] [15:58:18.978] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 12, 2023 15:58:23.927 [2112:13356:0812/155823.927:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 12, 2023 16:12:16.422 [2112:13356:0812/161216.422:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 12, 2023 16:12:26.763 [2112:13356:0812/161226.763:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 12, 2023 16:12:28.768 [2112:13356:0812/161228.768:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:14:15.233 [2112:13356:0812/161415.233:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:17:40.554 [2112:13356:0812/161740.554:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:24:39.248 [2112:13356:0812/162439.247:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:34:39.264 [2112:13356:0812/163439.264:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:44:39.268 [2112:13356:0812/164439.268:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 16:54:39.286 [2112:13356:0812/165439.286:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:04:39.297 [2112:13356:0812/170439.296:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:14:39.302 [2112:13356:0812/171439.302:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:24:39.318 [2112:13356:0812/172439.316:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:34:39.322 [2112:13356:0812/173439.321:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:44:39.325 [2112:13356:0812/174439.325:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 17:54:39.329 [2112:13356:0812/175439.329:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:04:39.334 [2112:13356:0812/180439.334:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:14:39.350 [2112:13356:0812/181439.350:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:24:39.360 [2112:13356:0812/182439.359:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:34:39.369 [2112:13356:0812/183439.369:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:44:39.380 [2112:13356:0812/184439.380:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 18:54:39.393 [2112:13356:0812/185439.393:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:04:39.403 [2112:13356:0812/190439.403:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:14:39.417 [2112:13356:0812/191439.417:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:24:39.434 [2112:13356:0812/192439.434:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:34:23.229 [2112:18844:0812/193423.228:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:34:39.438 [2112:13356:0812/193439.438:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:35:38.234 [2112:14956:0812/193538.233:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:37:30.752 [2112:18844:0812/193730.752:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:40:19.509 [2112:18844:0812/194019.509:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:44:32.647 [2112:18844:0812/194432.647:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:44:39.443 [2112:13356:0812/194439.443:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 19:54:32.665 [2112:18844:0812/195432.664:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 19:54:39.449 [2112:13356:0812/195439.449:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:04:32.684 [2112:18844:0812/200432.682:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:04:39.466 [2112:13356:0812/200439.466:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:14:32.693 [2112:18844:0812/201432.693:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:14:39.474 [2112:13356:0812/201439.473:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:24:32.708 [2112:18844:0812/202432.707:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:24:39.483 [2112:13356:0812/202439.483:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:34:32.736 [2112:18844:0812/203432.714:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:34:39.489 [2112:13356:0812/203439.489:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:44:32.728 [2112:18844:0812/204432.727:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:44:39.502 [2112:13356:0812/204439.502:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 20:54:32.737 [2112:18844:0812/205432.737:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 20:54:39.511 [2112:13356:0812/205439.511:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:04:32.749 [2112:18844:0812/210432.749:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:04:39.520 [2112:13356:0812/210439.519:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:14:32.759 [2112:18844:0812/211432.759:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:14:39.537 [2112:13356:0812/211439.536:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:24:32.768 [2112:18844:0812/212432.768:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:24:39.554 [2112:13356:0812/212439.554:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:34:32.786 [2112:18844:0812/213432.784:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:34:39.572 [2112:13356:0812/213439.572:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:44:32.794 [2112:18844:0812/214432.794:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:44:39.585 [2112:13356:0812/214439.585:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 21:54:32.807 [2112:18844:0812/215432.807:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 21:54:39.591 [2112:13356:0812/215439.591:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 22:04:32.822 [2112:18844:0812/220432.822:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 22:04:39.604 [2112:13356:0812/220439.604:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 22:14:32.836 [2112:18844:0812/221432.836:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 22:14:39.617 [2112:13356:0812/221439.615:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 12, 2023 22:24:32.854 [2112:18844:0812/222432.853:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 12, 2023 22:24:39.631 [2112:13356:0812/222439.631:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Aug 16, 2023 10:42:43.116 NEW SESSION
+Aug 16, 2023 10:42:43.116 [2944:15068:0816/104243.115:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 16, 2023 10:48:51.632 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 16, 2023 11:18:03.193 [2944:15068:0816/111803.192:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+Aug 16, 2023 11:18:03.198 [2944:15068:0816/111803.198:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Aug 16, 2023 16:06:42.02 NEW SESSION
+Aug 16, 2023 16:06:42.02 [20536:16624:0816/160642.000:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 16, 2023 16:24:20.674 [20536:16624:0816/162420.674:ERROR:device_event_log_impl.cc(222)] [16:24:20.674] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 16, 2023 16:31:48.245 [20536:20212:0816/163148.244:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 16, 2023 17:18:15.276 [20536:20212:0816/171815.275:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -109
+
+Aug 18, 2023 14:06:25.625 NEW SESSION
+Aug 18, 2023 14:06:25.625 [22264:24820:0818/140625.623:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 18, 2023 14:13:42.822 [22264:23636:0818/141342.822:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 18, 2023 14:18:51.190 [22264:23636:0818/141851.190:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Aug 18, 2023 14:19:22.163 [22264:23636:0818/141922.162:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 18, 2023 15:07:03.233 [22264:23636:0818/150703.233:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 18, 2023 15:33:41.59 [22264:23636:0818/153341.058:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Aug 19, 2023 09:29:49.596 NEW SESSION
+Aug 19, 2023 09:29:49.596 [23320:2932:0819/092949.594:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+Aug 19, 2023 10:52:27.210 [23320:14344:0819/105227.209:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 19, 2023 10:52:30.179 [23320:14344:0819/105230.179:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 19, 2023 10:53:54.64 [23320:14344:0819/105354.064:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 19, 2023 11:39:34.912 [23320:14344:0819/113934.911:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 19, 2023 13:03:23.97 [23320:14344:0819/130323.096:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2

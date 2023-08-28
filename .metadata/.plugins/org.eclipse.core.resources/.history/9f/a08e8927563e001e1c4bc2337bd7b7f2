@@ -1,0 +1,8 @@
+package edu.tyss.loginandlogout;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet(value = "/home")
+public class Home {
+
+}

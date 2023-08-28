@@ -1,0 +1,6 @@
+package com.tyss.food_app.entity;
+
+public enum Type {
+	
+	VEG, NONVEG, VEGAN ;
+}

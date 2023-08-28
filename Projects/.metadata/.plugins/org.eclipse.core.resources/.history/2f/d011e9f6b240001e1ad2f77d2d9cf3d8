@@ -1,0 +1,58 @@
+package com.tyss.food_app.serviceimplementation;
+
+import com.tyss.food_app.entity.FoodOder;
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.service.FoodOrderService;
+import com.tyss.food_app.userDaoImplementation.FoodOrderImplementation;
+import com.tyss.food_app.util.EntityUtil;
+
+public class FoodOrderServiceImplementation implements FoodOrderService{
+	
+	EntityUtil entityUtil = new EntityUtil() ;
+	
+	FoodOrderImplementation dao = new FoodOrderImplementation() ;
+
+	
+	public FoodOder saveFoodOder(FoodOder order) {
+		
+		return dao.saveFoodOrder(order);
+	}
+
+	
+	public FoodOder updateFoodOder(FoodOder order) {
+		
+		return dao.upadateFoodOrder(order);
+	}
+
+	
+	public boolean deleteFoodOder(int id) {
+		
+		return dao.deleteFoodOrder(id);
+	}
+
+	
+	public FoodOder getFoodOderbyIdService(int id) {
+		
+		return dao.findFoodOrder(id);
+	}
+
+	
+	public FoodOder getFoodOderUserbyIdService(int id) {
+		
+		return entityUtil.manager.find(Users.class, id).get ;
+		
+	}
+
+	
+	public FoodOder getFoodOderbyCustomerNameService(FoodOder order) {
+		
+		return null;
+	}
+
+	
+	public FoodOder getFoodOderbyCustomerPhoneNumberService(FoodOder order) {
+		
+		return null;
+	}
+
+}

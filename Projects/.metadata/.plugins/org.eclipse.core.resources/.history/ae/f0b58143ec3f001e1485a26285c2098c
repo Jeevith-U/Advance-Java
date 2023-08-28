@@ -1,0 +1,17 @@
+package com.tyss.food_app.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Branch {
+	
+	private int id ;
+	private String name ;
+	private String address ;
+	private String email ;
+	private long phno ;
+	
+	@ManyToOne
+	private Users users ;
+}

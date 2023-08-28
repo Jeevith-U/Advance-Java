@@ -1,0 +1,25 @@
+<%@page import="com.tyss.food_app.userDaoImplementation.MenuDaoImplementation"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table>
+<th>Menu ID</th>
+<th>Branch Id</th>
+<th>Branch Name</th>
+<th>Branch Phone Number</th>
+<th>Branch Email</th>
+
+<% int id = Integer.valueOf(request.getParameter("id")) ;
+  MenuDaoImplementation dao = new MenuDaoImplementation () ;
+  Menu menu = dao.findMenu(id) ;
+%>
+</table>
+</body>
+</html>

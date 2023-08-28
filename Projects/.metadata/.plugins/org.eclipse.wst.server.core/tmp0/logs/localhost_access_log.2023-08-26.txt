@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Aug/2023:21:38:19 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:38:21 +0530] "GET /Food_App/ HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:38:21 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:56:07 +0530] "GET /Food_App/Login.jsp HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:56:44 +0530] "POST /Food_App/login HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:56:58 +0530] "POST /Food_App/staffop HTTP/1.1" 200 3685
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:58:02 +0530] "POST /Food_App/createFood HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:58:06 +0530] "POST /Food_App/staffop HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:58:58 +0530] "POST /Food_App/displayfoodorder HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:18 +0530] "POST /Food_App/staffop HTTP/1.1" 200 674
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:21 +0530] "GET /Food_App/staff.jsp HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:28 +0530] "POST /Food_App/staffop HTTP/1.1" 200 1097
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:37 +0530] "POST /Food_App/updatefoodorder HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:43 +0530] "POST /Food_App/staffop HTTP/1.1" 200 1097
+0:0:0:0:0:0:0:1 - - [26/Aug/2023:21:59:55 +0530] "POST /Food_App/updatefoodorder HTTP/1.1" 200 716

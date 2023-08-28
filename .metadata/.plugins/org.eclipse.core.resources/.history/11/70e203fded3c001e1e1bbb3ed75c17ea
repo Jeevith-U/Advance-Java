@@ -1,0 +1,25 @@
+package edu.tyss.hidden_form;
+
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet(value = "/servlet2")
+public class Servlet2 {
+	
+	PrintWriter writer = resp.getWriter() ;
+	
+	String name = req.getParameter("fname") ;
+	
+	writer.print("<html><body>");
+	
+	writer.print("<h3>This is from Servlet a</h3>");
+	
+	writer.print("<form action='servlet2' >") ;
+	writer.print("<input type='hidden' 'fname''><br>") ;
+	writer.print("Email :<input type= 'email'  name= 'email'><br>") ;
+	writer.print("Phone : <input type= 'tel'  name= 'phone'><br>") ;
+	writer.print("</form>") ;
+	
+	writer.print("</body></html>");
+}

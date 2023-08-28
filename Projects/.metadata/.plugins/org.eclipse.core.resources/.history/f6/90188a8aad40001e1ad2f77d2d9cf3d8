@@ -1,0 +1,75 @@
+package com.tyss.food_app.serviceimplementation;
+
+import java.util.List;
+
+import javax.persistence.Query;
+
+import com.tyss.food_app.entity.Branch;
+import com.tyss.food_app.service.BranchService;
+import com.tyss.food_app.userDaoImplementation.BranchDaoImplementation;
+import com.tyss.food_app.util.EntityUtil;
+
+public class BranchServiceImplementation implements BranchService{
+	
+	EntityUtil entityUtil = new EntityUtil() ;
+	
+	BranchDaoImplementation dao = new BranchDaoImplementation() ;
+
+	
+	public Branch saveBranchervice(Branch branch) {
+		
+		return dao.saveBranch(branch) ;
+	}
+
+	
+	public Branch getBranchbyIdService(int id) {
+		
+		return dao.findBranch(id) ;
+	}
+
+	
+	public Branch getBranchbyNamedService(String name) {
+		
+		Query query = entityUtil.manager.createQuery("select b from Branch b where b.name = ?1") ;
+		query.setParameter(1, name) ;
+		
+		Branch branch = (Branch)query.getSingleResult() ;
+		
+		return branch;
+		
+		
+	}
+
+	
+	public Branch getBranchEmailService(Branch branch) {
+		
+		return null;
+	}
+
+	
+	public Branch getBranchbyPhoneNumberService(Branch branch) {
+		
+		return null;
+	}
+
+	
+	public Branch updateBranchervice(Branch branch) {
+		
+		return null;
+	}
+
+	
+	public Branch deleteBranchervice(Branch branch) {
+		
+		return null;
+	}
+
+	
+	public List<Branch> getAllBranchervice() {
+		
+		return null;
+	}
+
+	
+	
+}

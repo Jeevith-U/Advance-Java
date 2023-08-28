@@ -1,0 +1,7 @@
+package com.tyss.food_app.userDaoImplementation;
+
+import com.tyss.food_app.userDao.Food_ProductDao;
+
+public class Food_ProductDaoImplementation implements Food_ProductDao{
+
+}

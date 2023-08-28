@@ -1,0 +1,39 @@
+package com.tyss.food_app.serviceimplementation;
+
+import com.tyss.food_app.entity.Item;
+import com.tyss.food_app.service.ItemService;
+import com.tyss.food_app.util.Type;
+
+public class ItemServiceImplementation implements ItemService {
+
+	@Override
+	public Item saveItemervice(Item item) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item getItembyIdService(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item getItembyNameService(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item getItembyTypeService(Type type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item getItemFoodOrderIdService(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

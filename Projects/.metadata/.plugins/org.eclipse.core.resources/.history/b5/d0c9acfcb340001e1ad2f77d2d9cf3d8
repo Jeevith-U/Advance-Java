@@ -1,0 +1,12 @@
+package com.tyss.food_app.service;
+
+import com.tyss.food_app.entity.Item;
+
+public interface ItemService {
+	
+	public Item saveItemervice (Item item) ;
+	public Item getItembyIdService (Item item) ;
+	public Item getItembyNameService (Item item) ;
+	public Item getItembyTypeService (Item item) ;
+	public Item getItemFoodOrderIdService (Item item) ;
+}

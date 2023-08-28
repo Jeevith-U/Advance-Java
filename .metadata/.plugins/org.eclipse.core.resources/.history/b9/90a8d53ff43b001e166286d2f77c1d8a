@@ -1,0 +1,27 @@
+package edu.tyss.sendredirect;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet(name = "/redirect", loadOnStartup = 2)
+public class SendRedirectClass extends HttpServlet{
+	
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String reqloan = req.getParameter("loan") ;
+		
+		if(reqloan.equalsIgnoreCase("home"))
+			resp.sendRedirect("https://homeloans.kotak.com/loginDetail?flow=apply&pn=HL&cid=HL443&cName=HL_SOK_SEM_Generic&utm_source=DIY&utm_medium=Metros&utm_campaign=HL_SOK_SEM_Generic&utm_content=HL_SOK_SEM_Generic_Top3%20Metro&utm_term=HL443&gad=1");
+		if(reqloan.equalsIgnoreCase("Vehicle"))
+		resp.sendRedirect("https://www.hdfcbank.com/personal/borrow/popular-loans/new-car-loan") ;
+		if(reqloan.equalsIgnoreCase("gold"))
+			resp.sendRedirect("https://www.oromoney.in/?utm_source=google&utm_medium=search&utm_campaign=goldloan&utm_id=need&gad=1&gclid=Cj0KCQjwoeemBhCfARIsADR2QCuZxdhr8f4g-5kvQvNQglhEB4yctRENNyY6wDTgeODwS2_zgKgnPpYaAkuZEALw_wcB") ;
+		else
+			resp.sendRedirect("https://www.google.com/") ;
+	}
+}

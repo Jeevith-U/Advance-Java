@@ -1,0 +1,43 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+           <welcome-file>forms.html</welcome-file>
+           <welcome-file>homepage.html</welcome-file>
+           <welcome-file>jairaj.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+       <servlet-name>formregister</servlet-name>
+       <servlet-class>edu.tyss.requestdispatcher.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>formregister</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+       <servlet-name>application</servlet-name>
+       <servlet-class>edu.tyss.requestdispatcher.Application</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>application</servlet-name>
+  <url-pattern>/application</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Servlet mapping for servlet redirect 
+  
+  <servlet>
+      <servlet-name>servletredirect</servlet-name>
+      <servlet-class>edu.tyss.sendredirect.SendRedirectClass</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>servletredirect</servlet-name>
+  <url-pattern>/redirect</url-pattern>
+  </servlet-mapping> -->
+</web-app>

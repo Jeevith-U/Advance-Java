@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Sessions"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Sessions\src\main\java\edu\tyss\httpsession\Session2.java"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Hidden_Form_Field\src\main\java\edu\tyss\hidden_form\Test1.java"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Servlet_Cookie\src\main\java\cookie\CookieReader.java"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Servlet_context"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\GenericServletAssignment\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\GenericServletAssignment\src\main\webapp\productform.html"/>
+			<item value="C:\Users\Jeevith\eclipse-workspace\Servlets Programs\Servlet_Program1\src\main\java\edu\tyss\servlet_program\dto\LoginPage.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="edu.ty.jsptags.JSPTags"/>
+		</list>
+		<list key="groupId">
+			<item value="edu.ty.jsptags"/>
+		</list>
+		<list key="artifactId">
+			<item value="JSPTags"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
