@@ -1,0 +1,24 @@
+<%@page import="com.tyss.food_application.Util.Users"%>
+<%@page import="java.util.List"%>
+<%@page import="com.tyss.springfoodapp.dao.UserDao"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>${failedstaff}</h1>
+	<form:form action="savestaff" modelAttribute="staff">
+Name: <form:input path="name" />
+Email :<form:input path="email" />
+Password : <form:input path="password" />
+		<form:button type="submit">create staff</form:button>
+	</form:form>
+
+</body>
+</html>

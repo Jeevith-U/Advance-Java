@@ -1,0 +1,64 @@
+package com.tyss.springfoodapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.tyss.springfoodapp.dto.Food_Product;
+import com.tyss.springfoodapp.dto.Users;
+import com.tyss.springfoodapp.service.Food_ProductService;
+import com.tyss.springfoodapp.service.UserService;
+
+@Controller
+public class ManagerController {
+	
+	@Autowired
+	private UserService service ;
+	
+	@Autowired
+	private Food_ProductService prodService ;
+	
+	@RequestMapping("/createstaff")
+	public ModelAndView gotoCreateStaff(ModelAndView mav,Users staff) {
+		mav.addObject("staff", staff) ;
+		mav.setViewName("createstaff.jsp") ;
+		return mav;
+	}
+	
+	@RequestMapping("/savestaff")
+	public ModelAndView savestaffCreateByManager(@ModelAttribute Users users, ModelAndView mav) {
+		mav.setViewName("manageroperation.jsp") ;
+		if (users != null) {
+			users.setRole("STAFF") ;
+			mav.addObject("msg", "Staff Saved Sucessfully") ;
+			service.saveUser(users) ;
+			return mav ;
+		}
+		mav.addObject("failedstaff","Unable to save the staff") ;
+		mav.setViewName("createstaff.jsp") ;
+		return mav;
+	}
+	
+	@RequestMapping("/createfoodproduct")
+	public ModelAndView createFoodProduct(Food_Product product, ModelAndView mav) {
+		mav.addObject("createFoodProduct", product);
+		mav.setViewName("createfoodproduct.jsp") ;
+		return mav ;
+	}
+	
+	@RequestMapping("/saveFoodProduct")
+	public ModelAndView saveFoodProductCreatedByManager(@ModelAttribute Food_Product product, ModelAndView mav) {
+		if (product != null) {
+			System.out.println(product);
+			prodService.saveFood_Productervice(product) ;
+			mav.addObject("prodsaved", "Successfully saved the food product") ;
+			mav.setViewName("manageroperation.jsp") ;
+			return mav ;
+		}
+		mav.addObject("msg", "Unable To create the Food Product Retry") ;
+		mav.setViewName("createfoodproduct.jsp") ;
+		return mav;
+	}
+}

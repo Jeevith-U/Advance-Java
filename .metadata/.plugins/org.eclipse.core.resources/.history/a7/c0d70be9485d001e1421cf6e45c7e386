@@ -1,0 +1,21 @@
+package com.ty.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.ty.Entity.Student;
+
+@Controller
+public class StudentController {
+	
+	@RequestMapping("/student")
+	public ModelAndView setStudent(Student student, ModelAndView mav) {
+		mav.setViewName("session.jsp") ;
+		student.setId(101) ;
+		student.setName("Meera") ;
+		student.setAge(22) ;
+		mav.addObject("student", student) ;
+		return mav ;
+	}
+}

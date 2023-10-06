@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.tyss.springfoodapp.controller.CustomerController.java&apos; to &apos;StaffController.java&apos;&#x0D;&#x0A;- Original project: &apos;FoodApp&apos;&#x0D;&#x0A;- Original element: &apos;com.tyss.springfoodapp.controller.CustomerController.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tyss.springfoodapp.controller.StaffController.java&apos;" description="Rename compilation unit &apos;CustomerController.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tyss.springfoodapp.controller{CustomerController.java" name="StaffController.java" references="false" stamp="1695125809490" version="1.0"/>
+</session>

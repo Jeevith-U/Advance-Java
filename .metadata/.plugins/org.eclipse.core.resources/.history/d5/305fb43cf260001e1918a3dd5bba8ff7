@@ -1,0 +1,5 @@
+package com.tyss.food_application.configuration;
+
+public class WebIntializer {
+
+}
