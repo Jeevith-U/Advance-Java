@@ -1,0 +1,25 @@
+package com.tyss.food_app.UserDaoTest;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.userDaoImplementation.UserDaoImplementation;
+
+public class UserDaoTest {
+	
+	@Test
+	void test() {
+		
+		UserDaoImplementation dao = new UserDaoImplementation();
+		
+		Users user = new Users() ;
+		user.setName("Jeevith");
+		user.setPassword("Jeevith22$");
+		
+		Users daoUser = dao.saveUser(user) ;
+		
+		Assertions.assertTrue(daoUser.getPassword() == user.getPassword());
+	}
+
+}

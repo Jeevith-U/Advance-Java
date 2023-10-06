@@ -1,0 +1,40 @@
+package com.tyss.food_app.UserServiceTest;
+
+package com.ty.voting;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class VotingTest {
+	@BeforeEach
+	public void before() {
+		System.out.println("create connection");
+	}
+
+	@AfterEach
+	public void after() {
+		System.out.println("close db connection");
+	}
+
+	@Test
+	void testVoting() {
+		Voting voting = new Voting();
+		Assertions.assertThrows(NotEligibleToVoteException.class, () -> voting.voting(19));
+	}
+
+	@Test
+	void test2Voting() {
+		Voting voting = new Voting();
+		Assertions.assertThrows(EligibleForVoting.class, () -> voting.voting(19));
+	}
+
+	@Test
+	void test5Voting() {
+		Voting voting = new Voting();
+		Assertions.assertThrows(NotEligibleToVoteException.class, () -> voting.voting(19));
+	}
+
+}
+

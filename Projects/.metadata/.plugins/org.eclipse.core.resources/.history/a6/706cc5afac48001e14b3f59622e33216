@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+    <% response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); %>
+</head>
+<body>
+    <div>
+        <h2><a href="SignUp.jsp">Sign Up</a></h2>
+        <h2><a href="Login.jsp">Login</a></h2>
+    </div>
+</body>
+</html>

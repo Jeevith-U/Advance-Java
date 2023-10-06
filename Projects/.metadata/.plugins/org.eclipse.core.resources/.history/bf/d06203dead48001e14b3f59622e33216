@@ -1,0 +1,32 @@
+<html>
+<body>
+
+	<%
+     response.setHeader("Cache-Control", "no-cache,no-store, must-revalidate") ;
+
+    %>
+    
+    <div>
+        <form action="process_form.jsp" method="post">
+            <h2>Sign Up</h2>
+            <label for="username">SignUp</label>
+           <a href="SignUp.jsp" id="username"></a>
+            
+            <label for="password">Login</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    
+	<div align="center">
+		<h2>
+			<a href="SignUp.jsp"></a>
+		</h2>
+		<h2>
+			<a href="Login.jsp"></a>
+		</h2>
+	</div>
+</body>
+</html>

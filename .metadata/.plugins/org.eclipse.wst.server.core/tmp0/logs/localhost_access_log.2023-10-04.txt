@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Oct/2023:22:56:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:22:56:23 +0530] "GET /ProductInfo/product.jsp HTTP/1.1" 200 589
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:22:56:23 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:22:56:56 +0530] "GET /ProductInfo/product.jsp HTTP/1.1" 200 613
+127.0.0.1 - - [04/Oct/2023:23:02:52 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:23:02:54 +0530] "GET /ProductInfo/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:23:03:03 +0530] "GET /ProductInfo/product.jsp HTTP/1.1" 200 613
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:23:03:29 +0530] "GET /ProductInfo/product?id=1&name=iphone15&quan=2&price=300000&submit=Submit HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2023:23:22:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:23:22:33 +0530] "GET /ProductInfo/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [04/Oct/2023:23:22:41 +0530] "GET /ProductInfo/product.jsp HTTP/1.1" 200 613

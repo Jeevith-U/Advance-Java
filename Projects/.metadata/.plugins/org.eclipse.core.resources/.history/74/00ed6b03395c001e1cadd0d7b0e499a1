@@ -1,0 +1,25 @@
+package com.tyss.food_app.UserServiceTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.serviceimplementation.UserServiceImplementation;
+
+public class UserServiceTest {
+	
+	private UserServiceImplementation service ;
+	
+	@Test
+	public void testSaveUserService(Users users) {
+		
+		Users user = service.saveUserService(users) ;
+		
+		assertEquals(users, user);
+		
+		
+		
+		
+	}
+}

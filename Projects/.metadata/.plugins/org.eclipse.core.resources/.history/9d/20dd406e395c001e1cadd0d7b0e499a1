@@ -1,0 +1,23 @@
+package com.tyss.food_app.UserServiceTest;
+
+import org.junit.jupiter.api.Test;
+
+import com.tyss.food_app.entity.Users;
+import com.tyss.food_app.serviceimplementation.UserServiceImplementation;
+
+public class UserDaoImplementationTest {
+	
+	private UserServiceImplementation service ;
+	
+	@Test
+	public void testSaveUserService(Users users) {
+		
+		Users user = service.saveUserService(users) ;
+		
+		asserequals
+		
+		
+		
+		
+	}
+}
