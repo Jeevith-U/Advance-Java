@@ -1,0 +1,7 @@
+package com.workingsapce.WorkSpace.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Floor extends JpaRepository<Floor, Long>{
+
+}

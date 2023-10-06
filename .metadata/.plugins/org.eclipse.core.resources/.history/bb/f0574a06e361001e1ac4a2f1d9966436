@@ -1,0 +1,24 @@
+package com.workingsapce.WorkSpace.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.workingsapce.WorkSpace.Dao.CoWorkSpaceDao;
+import com.workingsapce.WorkSpace.Entity.CoworkSpace;
+import com.workingsapce.WorkSpace.ResponseStructure.ResponseStructure;
+import com.workingsapce.WorkSpace.Service.CoworkSpaceService;
+
+@RestController
+public class CoWorkSpaceController {
+	
+	@Autowired
+	private CoworkSpaceService service ;
+	
+	@PostMapping("/cowork")
+	public ResponseEntity<ResponseStructure<CoworkSpace>> saveCoworkSpace(@RequestBody CoworkSpace coworkSpace) {
+		return service.saveCoWorkSpace(coworkSpace) ;
+	}
+}

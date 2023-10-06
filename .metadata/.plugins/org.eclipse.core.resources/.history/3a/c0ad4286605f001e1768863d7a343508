@@ -1,0 +1,11 @@
+package com.workingsapce.WorkSpace.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.workingsapce.WorkSpace.Entity.CoworkSpace;
+
+public interface CoWorkSpaceRepository extends JpaRepository<CoworkSpace, Long>{
+	
+	CoworkSpace findById(long id) ;
+
+}

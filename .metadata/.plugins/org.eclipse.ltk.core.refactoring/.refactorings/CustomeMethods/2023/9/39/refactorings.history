@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.customMethods.CustomeMethods.Model&apos; to &apos;Employee/src/main/java/com.Employee.Employee&apos;&#x0D;&#x0A;- Original project: &apos;CustomeMethods&apos;&#x0D;&#x0A;- Destination element: &apos;Employee/src/main/java/com.Employee.Employee&apos;&#x0D;&#x0A;- Original element: &apos;CustomeMethods/src/main/java/com.customMethods.CustomeMethods.Model&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Employee/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Employee.Employee" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.customMethods.CustomeMethods.Model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1695809166708" version="1.0"/>
+</session>

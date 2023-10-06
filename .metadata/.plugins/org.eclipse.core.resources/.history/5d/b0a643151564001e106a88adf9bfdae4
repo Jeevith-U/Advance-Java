@@ -1,0 +1,5 @@
+package com.tyss.swagger.UserAppWithSwagger.Entity;
+
+public class User {
+
+}

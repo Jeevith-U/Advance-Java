@@ -1,0 +1,23 @@
+package com.workingsapce.WorkSpace.Dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.Repository.BuildingRepository;
+
+@Repository
+public class BuildingDao {
+	
+	@Autowired
+	private BuildingRepository repo ;
+	
+	public Building saveBuilding(Building building) {
+		
+		if (building != null) {
+			return repo.save(building);
+		}
+		return null ;
+	}
+	
+}

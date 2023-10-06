@@ -1,0 +1,11 @@
+package com.workingsapce.WorkSpace.Controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.workingsapce.WorkSpace.Service.CompanyService;
+
+@RestController
+public class CompanyController {
+	
+	private CompanyService service ;
+}

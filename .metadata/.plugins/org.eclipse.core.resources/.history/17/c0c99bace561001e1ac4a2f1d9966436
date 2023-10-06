@@ -1,0 +1,38 @@
+package com.workingsapce.WorkSpace.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.workingsapce.WorkSpace.Entity.CoworkSpace;
+import com.workingsapce.WorkSpace.Exception.IdNotFoundException;
+import com.workingsapce.WorkSpace.ResponseStructure.ResponseStructure;
+import com.workingsapce.WorkSpace.Service.CoworkSpaceService;
+
+@RestController
+public class CoWorkSpaceController {
+	
+	@Autowired
+	private CoworkSpaceService service ;
+	
+	@PostMapping("/cowork")
+	public ResponseEntity<ResponseStructure<CoworkSpace>> saveCoworkSpace(@RequestBody CoworkSpace coworkSpace) {
+		return service.saveCoWorkSpace(coworkSpace) ;
+	}
+	
+	@GetMapping("/cowork/{id}")
+	public ResponseEntity<ResponseStructure<CoworkSpace>> findCoworkById(@PathVariable int id) throws IdNotFoundException {
+		return service.findCoworkspaceById(id) ;
+	}
+	
+	@PutMapping("/cowork")
+	public ResponseEntity<ResponseStructure<CoworkSpace>> updateCoworkSpace(@RequestBody CoworkSpace coworkSpace) {
+		return service.deleteCoWorkSpace(coworkSpace) ;
+	}
+}

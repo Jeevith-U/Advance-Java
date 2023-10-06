@@ -1,0 +1,5 @@
+package com.workingsapce.WorkSpace.Exception;
+
+public class ExceptionHandler {
+
+}

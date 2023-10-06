@@ -1,0 +1,38 @@
+package School;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+
+public class SchoolDriver {
+	
+	public static void main(String[] args) {
+		
+		School school = new School() ;
+		
+		school.setId(1);
+		school.setName("VVIT");
+		school.setAddress("Banglore Karnataka");
+		
+		List<Student> studentList = new ArrayList<Student>() ;
+		
+		studentList.add(new Student(101, "Jeevith", 23, "17Th")) ;
+		studentList.add(new Student(107, "Jeevith", 18, "12")) ;
+		studentList.add(new Student(109, "Jeevith", 20, "14th")) ;
+		studentList.add(new Student(103, "Jeevith", 21, "15")) ;
+		studentList.add(new Student(105, "Jeevith", 20, "14")) ;
+		studentList.add(new Student(102, "Jeevith", 18, "12")) ;
+		
+		school.setStudentList(studentList);
+		
+		HashSet<Student> setstudent = new HashSet<Student>(studentList) ; 
+		
+		
+		
+		
+		Collections.sort(studentList, (s1, s2) -> s1.getStuId() > s2.getStuId()?1 : -1);
+		
+		System.out.println(school);
+	}
+}

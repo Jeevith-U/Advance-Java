@@ -1,0 +1,9 @@
+package com.tyss.swagger.UserAppWithSwagger.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tyss.swagger.UserAppWithSwagger.Entity.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+}

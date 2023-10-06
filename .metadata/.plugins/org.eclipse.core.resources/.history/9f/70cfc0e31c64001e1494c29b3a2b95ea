@@ -1,0 +1,21 @@
+package com.tyss.swagger.UserAppWithSwagger.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tyss.swagger.UserAppWithSwagger.Entity.User;
+import com.tyss.swagger.UserAppWithSwagger.Service.UserService;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	private UserService service ;
+	
+	@PostMapping("/user")
+	public void saveUSer(User user) {
+		service.saveUser(user) ;
+	}
+
+}

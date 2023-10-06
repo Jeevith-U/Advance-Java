@@ -1,0 +1,56 @@
+package com.workingsapce.WorkSpace.Dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.Repository.BuildingRepository;
+
+@Repository
+public class BuildingDao {
+	
+	@Autowired
+	private BuildingRepository repo ;
+	
+	public Building saveBuilding(Building building) {
+		
+		if (building != null) {
+			return repo.save(building);
+		}
+		return null ;
+	}
+	
+	public Building findById(long id) {
+		return repo.findById(id) ;
+	}
+	
+	public List<Building> findAllBuilding(){
+		return repo.findAll() ;
+	}
+	
+	public Building updateCoWork(Building building) {
+		Building updateSpace = findById(building.getId()) ;
+		if (updateSpace != null) {
+			
+			updateSpace.setName(Building.getName());
+			updateSpace.setAddress(Building.getAddress());
+			updateSpace.setBuildings(Building.getBuildings());
+			repo.save(updateSpace) ;
+			return updateSpace ;
+		}
+		return null;
+	}
+	
+	public boolean deleteBuilding(Building Building) {
+		
+		if (findById(Building.getId()) != null) {
+			repo.delete(Building); 
+			return true ;
+		}
+		return false;
+	}
+	
+}

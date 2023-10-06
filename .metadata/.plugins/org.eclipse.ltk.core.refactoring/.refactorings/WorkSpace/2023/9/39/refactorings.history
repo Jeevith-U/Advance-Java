@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.workingsapce.WorkSpace.DaoInterface&apos; to &apos;com.workingsapce.WorkSpace.Dao&apos;&#x0D;&#x0A;- Original project: &apos;WorkSpace&apos;&#x0D;&#x0A;- Original element: &apos;WorkSpace/src/main/java/com.workingsapce.WorkSpace.DaoInterface&apos;&#x0D;&#x0A;- Renamed element: &apos;WorkSpace/src/main/java/com.workingsapce.WorkSpace.Dao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.workingsapce.WorkSpace.DaoInterface&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.workingsapce.WorkSpace.DaoInterface" name="com.workingsapce.WorkSpace.Dao" qualified="false" references="true" stamp="1696057102306" textual="false" version="1.0"/>
+</session>

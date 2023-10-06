@@ -1,0 +1,18 @@
+package com.workingsapce.WorkSpace.Dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.workingsapce.WorkSpace.Entity.CoworkSpace;
+import com.workingsapce.WorkSpace.Repository.CoWorkSpaceRepository;
+
+@Repository
+public class CoWorkSpaceDao {
+	
+	@Autowired
+	private CoWorkSpaceRepository repo ;
+	
+	public CoworkSpace saveCoworkSpace(CoworkSpace coworkSpace) {
+		return repo.save(coworkSpace) ;
+	}
+}

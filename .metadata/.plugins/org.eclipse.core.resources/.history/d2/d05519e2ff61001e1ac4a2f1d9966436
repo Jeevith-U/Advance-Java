@@ -1,0 +1,13 @@
+package com.workingsapce.WorkSpace.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.workingsapce.WorkSpace.Dao.CompanyDao;
+
+public class CompanyService {
+	
+	@Autowired
+	private CompanyDao dao ;
+	
+	
+}

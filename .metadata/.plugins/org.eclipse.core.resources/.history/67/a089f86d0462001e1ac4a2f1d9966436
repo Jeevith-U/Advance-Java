@@ -1,0 +1,19 @@
+package com.workingsapce.WorkSpace.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.workingsapce.WorkSpace.Dao.BuildingDao;
+import com.workingsapce.WorkSpace.Entity.Building;
+
+@RestController
+public class BuildingController {
+	
+	@Autowired
+	private BuildingDao dao ;
+	
+	public Building saveBuilding(Building building) {
+		
+		return dao.saveBuilding(building) ;
+	}
+}

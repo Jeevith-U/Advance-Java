@@ -1,0 +1,9 @@
+package com.workingsapce.WorkSpace.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.workingsapce.WorkSpace.Entity.Building;
+
+public interface BuildingRepository extends JpaRepository<Building, Long> {
+
+}

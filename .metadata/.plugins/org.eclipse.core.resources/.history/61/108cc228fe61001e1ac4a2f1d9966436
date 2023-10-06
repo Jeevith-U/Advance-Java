@@ -1,0 +1,89 @@
+package com.workingsapce.WorkSpace.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.workingsapce.WorkSpace.Dao.BuildingDao;
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.Exception.IdNotFoundException;
+import com.workingsapce.WorkSpace.ResponseStructure.ResponseStructure;
+
+public class BuildingService {
+	
+	@Autowired
+	private BuildingDao dao ;
+	
+	public ResponseEntity<ResponseStructure<Building>> saveCoWorkSpace(Building building) {
+
+		if (building != null) {
+			ResponseStructure<Building> response = new ResponseStructure<Building>();
+			response.setStatusCode(HttpStatus.CREATED.value());
+			response.setMessage(HttpStatus.CREATED.getReasonPhrase());
+			response.setMessage("Building Saved Successfully...");
+			response.setData(dao.saveBuilding(building));
+			dao.saveBuilding(dao.saveBuilding(building));
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.CREATED);
+		} else {
+
+			ResponseStructure<Building> response = new ResponseStructure<Building>();
+			response.setStatusCode(HttpStatus.NO_CONTENT.value());
+			response.setMessage(HttpStatus.NO_CONTENT.getReasonPhrase());
+			response.setData(null);
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.CREATED);
+		}
+	}
+
+	public ResponseEntity<ResponseStructure<Building>> findCoworkspaceById(long id) throws IdNotFoundException {
+
+		if (dao.findById(id) != null) {
+			ResponseStructure<Building> response = new ResponseStructure<Building>();
+			response.setStatusCode(HttpStatus.CREATED.value());
+			response.setMessage(HttpStatus.CREATED.getReasonPhrase());
+			dao.findById(id);
+			response.setData(dao.findById(id));
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.CREATED);
+		} else
+			throw new IdNotFoundException();
+	}
+
+   public ResponseEntity<ResponseStructure<Building>> updateCoWorkSpace(Building building){
+		
+		if (building != null) {
+			ResponseStructure<Building> response = new ResponseStructure<Building>() ;
+			response.setStatusCode(HttpStatus.OK.value());
+			response.setMessage(HttpStatus.OK.getReasonPhrase());
+			response.setData(building);
+			dao.updateCoWork(building) ;
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.OK) ;
+		}else {
+			
+			ResponseStructure<Building> response = new ResponseStructure<Building>() ;
+			response.setStatusCode(HttpStatus.NO_CONTENT.value());
+			response.setMessage(HttpStatus.NO_CONTENT.getReasonPhrase());
+			response.setData(null);
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.OK) ;
+		}
+    }
+   
+   public ResponseEntity<ResponseStructure<Building>> deleteCoWorkSpace(long id){
+	   
+		if (id != 0) {
+			ResponseStructure<Building> response = new ResponseStructure<Building>() ;
+			response.setStatusCode(HttpStatus.NO_CONTENT.value());
+			response.setMessage(HttpStatus.NO_CONTENT.getReasonPhrase());
+			response.setData(dao.findById(id));
+			dao.deleteBuilding(id) ;
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.OK) ;
+		}else {
+			
+			ResponseStructure<Building> response = new ResponseStructure<Building>() ;
+			response.setStatusCode(HttpStatus.NO_CONTENT.value());
+			response.setMessage(HttpStatus.NO_CONTENT.getReasonPhrase());
+			response.setData(null);
+			return new ResponseEntity<ResponseStructure<Building>>(response, HttpStatus.OK) ;
+		}
+   }
+
+}

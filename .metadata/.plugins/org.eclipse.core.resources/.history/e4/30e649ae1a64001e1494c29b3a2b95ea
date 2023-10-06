@@ -1,0 +1,5 @@
+package com.tyss.swagger.UserAppWithSwagger.configuration;
+
+public class ApplicationConfiguration {
+
+}

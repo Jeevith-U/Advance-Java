@@ -1,0 +1,13 @@
+package com.workingsapce.WorkSpace.Dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.workingsapce.WorkSpace.Repository.WorkspaceRepository;
+
+@Repository
+public class WorkSpace {
+	
+	@Autowired
+	private WorkspaceRepository repo ;
+}

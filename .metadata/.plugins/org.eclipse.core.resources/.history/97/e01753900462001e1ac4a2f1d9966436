@@ -1,0 +1,26 @@
+package com.workingsapce.WorkSpace.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.workingsapce.WorkSpace.Dao.BuildingDao;
+import com.workingsapce.WorkSpace.Entity.Building;
+import com.workingsapce.WorkSpace.ResponseStructure.ResponseStructure;
+import com.workingsapce.WorkSpace.Service.BuildingService;
+
+@RestController
+public class BuildingController {
+	
+	@Autowired
+	private BuildingService service ;
+	
+	public ResponseEntity<ResponseStructure<Building>> saveBuilding(Building building) {
+		
+		return service.saveBuilding(building) ;
+	}
+	
+	public ResponseEntity<ResponseStructure<Building>> findBuildingById(long id) {
+		return service.findById(id) ;
+	}
+}

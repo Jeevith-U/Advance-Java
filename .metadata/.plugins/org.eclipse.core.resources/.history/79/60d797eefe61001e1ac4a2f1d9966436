@@ -1,0 +1,50 @@
+package com.workingsapce.WorkSpace.Dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.workingsapce.WorkSpace.Entity.Room;
+import com.workingsapce.WorkSpace.Entity.WorkSpace;
+import com.workingsapce.WorkSpace.Repository.WorkspaceRepository;
+
+@Repository
+public class WorkSpaceDao {
+	
+	@Autowired
+	private WorkspaceRepository repo ;
+	
+	public WorkSpace saveWorkSpace(WorkSpace workSpace) {
+	return repo.save(workSpace) ;
+	}
+	
+	public Room findById(long id) {
+		return repo.findById(id) ;
+	}
+	
+	public List<Room> findAllRoom(){
+		return repo.findAll() ;
+	}
+	
+	public Room updateCoWork(Room room) {
+		Room updateSpace = findById(room.getRoomId()) ;
+		if (updateSpace != null) {
+			
+			updateSpace.setFacilities(room.getFacilities());
+			updateSpace.setType(room.getType());
+			repo.save(updateSpace) ;
+			return updateSpace ;
+		}
+		return null;
+	}
+	
+	public boolean deleteRoom(Room room) {
+		
+		if (findById(room.getRoomId()) != null) {
+			repo.delete(room); 
+			return true ;
+		}
+		return false;
+	}
+}
