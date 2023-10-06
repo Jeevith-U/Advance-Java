@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Core1/src/main/java/web.xml&apos; to &apos;my_config.xml&apos;" description="Rename resource &apos;web.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/web.xml" name="my_config.xml" stamp="1692872862512" updateReferences="true"/>
+</session>

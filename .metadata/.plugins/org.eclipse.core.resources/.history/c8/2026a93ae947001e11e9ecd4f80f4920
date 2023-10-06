@@ -1,0 +1,18 @@
+package com.tyss.AnnotationInInterface.variable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class Person {
+	
+	String name = "pavan" ;
+	
+	@Autowired
+	@Qualifier(value = "nonVeg") 
+	Food food ;
+	
+	public void presenting() {
+		
+		System.out.println(name +" We are presenting You \n"+ food.cutting());
+	}
+}

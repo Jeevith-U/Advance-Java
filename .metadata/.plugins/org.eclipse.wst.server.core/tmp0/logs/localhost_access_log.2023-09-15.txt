@@ -1,0 +1,16 @@
+127.0.0.1 - - [15/Sep/2023:17:34:40 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [15/Sep/2023:17:34:43 +0530] "GET /SaveUserCredentials/signup.jsp HTTP/1.1" 200 289
+127.0.0.1 - - [15/Sep/2023:17:35:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:35:45 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 290
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:35:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:36:09 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 298
+127.0.0.1 - - [15/Sep/2023:17:42:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:43:00 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 341
+127.0.0.1 - - [15/Sep/2023:17:45:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:45:31 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 341
+127.0.0.1 - - [15/Sep/2023:17:47:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:47:24 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 339
+127.0.0.1 - - [15/Sep/2023:17:49:18 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:49:19 +0530] "GET /SaveUserCredentials/ HTTP/1.1" 200 322
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:53:32 +0530] "GET /SaveUserCredentials/index.html HTTP/1.1" 200 366
+0:0:0:0:0:0:0:1 - - [15/Sep/2023:17:53:47 +0530] "POST /SaveUserCredentials/savecredentials HTTP/1.1" 200 -

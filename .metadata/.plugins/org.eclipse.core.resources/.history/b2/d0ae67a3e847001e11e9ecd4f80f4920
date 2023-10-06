@@ -1,0 +1,5 @@
+package com.tyss.AnnotationInInterface.variable;
+
+public class Configuration {
+
+}
